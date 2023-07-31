@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Documentation Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    
+      <nav id="navbar">
+      <header>HTML Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#Basic">Basic</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Elements">Elements</a>
+        </li>
+      <li>
+        <a class="nav-link" href="#Syntax">Syntax</a>
+        </li> 
+
+        <li>
+          <a class="nav-link" href="#Attributes">Attributes</a>
+          </li> 
+
+          <li>
+            <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+          </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+           What is HTML?
+          </p>
+          <ul>
+            <li>
+             HTML stands for Hyper Text Markup Language
+            </li>
+            <li>
+             HTML is the standard markup language for creating Web pages
+            </li>
+                     <li>
+HTML describes the structure of a Web page
+            </li>
+                     <li>
+HTML elements tell the browser how to display the content
+            </li>
+            <li>
+              HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+              </li>
+
+              
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="Basic">
+        <header>Basic</header>
+        <article>
+          <p>HTML Documents
+All HTML documents must start with a document type declaration.
+
+The HTML document itself begins with and ends with html tag.
+
+The visible part of the HTML document is between body tag.</p>
+
+<p>
+  HTML elements are defined in a series of freely available open standards issued since 1995, initially by the IETF and subsequently by the W3C.
+
+During the browser wars of the 1990s, developers of user agents (e.g. web browsers) often developed their own elements, some of which have been adopted in later standards. Other user agents may not recognize non-standard elements, and they will be ignored, possibly causing the page to be displayed improperly.
+
+In 1998, XML (a simplified form of SGML) introduced mechanisms to allow anyone to develop their own elements and incorporate them in XHTML documents, for use with XML-aware user agents.[10]
+
+Subsequently, HTML 4.01 was rewritten in an XML-compatible form, XHTML 1.0 (eXtensible HTML). The elements in each are identical, and in most cases valid XHTML 1.0 documents will be valid or nearly valid HTML 4.01 documents. This article mainly focuses on real HTML, unless noted otherwise; however, it remains applicable to XHTML. See HTML for a discussion of the minor differences between the two.
+</p>
+</article>
+      </section>
+
+      <section class="main-section" id="Elements">
+        <header>Elements</header>
+        <article>
+          <p>
+         An HTML element is a type of HTML (HyperText Markup Language) document component, one of several types of HTML nodes (there are also text nodes, comment nodes and others).[vague] The first used version of HTML was written by Tim Berners-Lee in 1993 and there have since been many versions of HTML. The most commonly used version is HTML 4.01, which became official standard in December 1999.[1] An HTML document is composed of a tree of simple HTML nodes, such as text nodes, and HTML elements, which add semantics and formatting to parts of document (e.g., make text bold, organize it into paragraphs, lists and tables, or embed hyperlinks and images). Each element can have HTML attributes specified. Elements can also have content, including other elements and text.
+          </p>
+          <code>const PI = 3.14;</code>
+       
+        </article>
+      </section>
+
+<section class="main-section" id="Syntax">
+  <header>Syntax</header>
+  <article>
+    <p>
+In the HTML syntax, most elements are written with a start tag and an end tag, with the content in between. An HTML tag is composed of the name of the element, surrounded by angle brackets. An end tag also has a slash after the opening angle bracket, to distinguish it from the start tag.
+    </p>
+    <code>const PI = 3.14;</code>
+    <p>
+      Separation of concerns allows the document to be presented by different user agents according to their purposes and abilities. For example, a user agent can select an appropriate style sheet to present a document by displaying on a monitor, printing on paper, or to determine speech characteristics in an audio-only user agent. The structural and semantic functions of the markup remain identical in each case.
+    </p>
+    <code>const PI = 3.14;</code>
+    <p>Historically, user agents did not always support these features. In the 1990s, as a stop-gap, presentational elements (like and) were added to HTML, at the cost of creating problems for interoperability and user accessibility. This is now regarded as outmoded and has been superseded by style sheet-based design; most presentational elements are now deprecated.[16]</p>
+  </article>
+</section>
+
+<section class="main-section" id="Attributes">
+  <header>Attributes</header>
+  <article>
+    <p>
+      HTML attributes define desired behavior or indicate additional element properties. Most attributes require a value. In HTML, the value can be left unquoted if it does not include spaces (attribute=value), or it can be quoted with single or double quotes (attribute='value' or attribute="value"). In XML, those quotes are required.
+    </p>
+    <code>const PI = 3.14;</code>
+    <p>
+      Specifies a base URL for all relative href and other links in the document. Must appear before any element that refers to an external resource. HTML permits only one <base> element for each document. This element has HTML attributes, but no contents.
+A development version of this element (as BASE) is mentioned in HTML Tags; standardized in HTML 2.0; still current.
+    </p>
+    <code>const PI = 3.14;</code>
+    <p>
+      Used for including generic objects within the document header. Though rarely used within a <head> element, it could potentially be used to extract foreign data and associate it with the current document.
+Standardized in HTML 4.0; still current.
+    </p>
+  </article>
+</section>
+
+<section class="main-section" id="What_you_should_already_know">
+    <header>What you should already know</header>
+    <article>
+      <p>This guide assumes you have the following basic background:</p>
+
+      <ul>
+        <li>
+          A general understanding of the Internet and the World Wide Web
+          (WWW).
+        </li>
+        <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+        <li>
+          Some programming experience. If you are new to programming, try
+          one of the tutorials linked on the main page about JavaScript.
+        </li>
+      </ul>
+    </article>
+  </section>
+
+
+      </main>
+    </body>
+    </html>
